@@ -1,0 +1,25 @@
+div.avatar img {
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-right: 1.3vw;
+}
+
+#avatar30x30 {
+	width: 30px;
+}
+
+#avatar50x50 {
+	width: 50px;
+}
+
+#avatar100x100 {
+	width: 100px;
+}
+
+#avatar200x200 {
+	width: 200px;
+}
+
+#avatar300x300 {
+	width: 300px;
+}

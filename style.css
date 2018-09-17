@@ -1,3 +1,8 @@
+/* Component stylesheets start */
+@import url("components/avatars.css");
+@import url("components/buttons.css");
+/* Component stylesheets end */
+
 /* Global styling start */
 * {
 	margin: 0;
@@ -8,8 +13,12 @@ body {
 	background-color: black;
 }
 
+.light {
+	font-weight: 200;
+}
+
 .bold {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .italic {
@@ -82,3 +91,23 @@ body {
 	border: 2px solid black;
 }
 /* Landing page finish */
+
+/* Home page start */
+#main {
+	color: white;
+	margin: 20px 0 0 5vw;
+}
+
+div.component {
+	width: 100%;
+	min-width: 750px;
+	overflow-x: scroll;
+	margin-bottom: 50px;
+}
+
+div.component h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+/* Home page finish */

@@ -1,0 +1,35 @@
+div.button {
+	min-height: 40px;
+}
+
+div.button a {
+	text-decoration: none;
+	margin-right: 1.3vw;
+}
+
+.btn_subtle {
+	color: white;
+	background-color: #01BFA5;
+	border: 1px solid white;
+	padding: 10px 45px;
+	border-radius: 20px;
+	font-size: larger;
+}
+
+.btn_subtle:hover {
+	color: #01BFA5;
+	background-color: white;
+}
+
+.btn_sign_up {
+	color: black;
+	background-color: #ffdb4d;
+	border-radius: 4px;
+	font-size: larger;
+	padding: 15px 45px;
+}
+
+.btn_sign_up:hover {
+	color: black;
+	background-color: #ffd11a;
+}
