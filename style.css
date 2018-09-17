@@ -20,6 +20,7 @@ body {
 
 /* Landing page start */
 #banner {
+	position: relative;
 	box-sizing: border-box;
 	width: 90vw;
 	min-width: 750px;
@@ -60,6 +61,7 @@ body {
 }
 
 #enter_button {
+	position: relative;
 	box-sizing: border-box;
 	text-align: center;
 	background-color: red;
@@ -73,6 +75,7 @@ body {
 	font-family: verdana;
 	color: white;
 	border: 2px solid white;
+	z-index: 2;
 }
 
 #enter_button:hover {
