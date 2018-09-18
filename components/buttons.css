@@ -1,17 +1,13 @@
-div.button {
-	min-height: 40px;
-}
-
 div.button a {
 	text-decoration: none;
-	margin-right: 1.3vw;
+	margin-right: 0.5vw;
 }
 
 .btn_subtle {
 	color: white;
 	background-color: #01BFA5;
 	border: 1px solid white;
-	padding: 10px 45px;
+	padding: 10px 40px;
 	border-radius: 20px;
 	font-size: larger;
 }
@@ -26,10 +22,49 @@ div.button a {
 	background-color: #ffdb4d;
 	border-radius: 4px;
 	font-size: larger;
-	padding: 15px 45px;
+	padding: 15px 40px;
 }
 
 .btn_sign_up:hover {
 	color: black;
 	background-color: #ffd11a;
+}
+
+.btn_rainbow {
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+	color: white;
+	padding: 30px 40px;
+	border-radius: 5px;
+}
+
+.btn_rainbow:hover {
+	background-image: radial-gradient(red,orange,yellow,green,blue,indigo,violet);
+	background-color: white;
+	color: black;
+}
+
+#george {
+	display: inline;
+	width: 153px;
+	height: 229px;
+}
+
+.btn_george img {
+	border-radius: 60px;
+	border: 2px solid white;
+}
+
+#squares {
+	display: inline;
+}
+
+.btn_squares img {
+	width: 150px;
+	height: 150px;
+	border: 2px solid orange;
+	border-radius: 50%;
+}
+
+.btn_squares img:hover {
+	border: 5px solid white;
 }
