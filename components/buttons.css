@@ -1,6 +1,10 @@
+div.button {
+	min-height: 450px;
+}
+
 div.button a {
 	text-decoration: none;
-	margin-right: 0.5vw;
+	margin-right: 2vw;
 }
 
 .btn_subtle {
@@ -67,4 +71,46 @@ div.button a {
 
 .btn_squares img:hover {
 	border: 5px solid white;
+}
+
+#train {
+	display: inline;
+}
+
+#choo_choo {
+	position: relative;
+	color: white;
+	font-size: 40px;
+	top: -45px;
+	left: -230px;
+/*	left: calc(5vw + 20px);*/
+	z-index: -10;
+}
+
+#muthafuckas {
+	position: relative;
+	color: white;
+	font-size: 35px;
+/*	left: calc(5vw + 25px);*/
+	top: 65px;
+	left: -425px;
+	z-index: -10;
+}
+
+.btn_choo_choo img {
+	height: 150px;
+	width: 250px;
+	border: 2px solid white;
+}
+
+.btn_choo_choo img:hover {
+	border: 2px solid red;
+}
+
+.btn_choo_choo:hover #choo_choo {
+	z-index: 10;
+}
+
+.btn_choo_choo:hover #muthafuckas {
+	z-index: 10;
 }
